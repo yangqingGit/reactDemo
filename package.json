@@ -1,0 +1,41 @@
+{
+  "name": "wmyyq",
+  "version": "1.0.0",
+  "main": "src/index.html",
+  "author": "yq",
+  "license": "ISC",
+  "description": "666",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yangqingGit/reactDemo.git"
+  },
+  "scripts": {
+    "dev": "",
+    "start": "webpack-dev-server --config ./build/webpack.config.js",
+    "build": "webpack --config ./build/webpack.config.js"
+  },
+  "dependencies": {
+    "antd": "^4.18.0",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-redux": "^7.2.6",
+    "react-router": "^6.2.1",
+    "redux": "^4.1.2",
+    "whatwg-fetch": "^3.6.2"
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-loader": "^7.1.5",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-react": "^6.24.1",
+    "css-loader": "^6.5.1",
+    "html-webpack-plugin": "^5.5.0",
+    "less": "^4.1.2",
+    "less-loader": "^10.2.0",
+    "style-loader": "^3.3.1",
+    "url-loader": "^4.1.1",
+    "webpack": "^5.65.0",
+    "webpack-cli": "^4.9.1",
+    "webpack-dev-server": "^4.7.1"
+  }
+}
