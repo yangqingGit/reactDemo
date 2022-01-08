@@ -1,5 +1,5 @@
 import 'whatwg-fetch';
-const apiAdress = "https://mg.kmelearning.com/web-student/api/my";
+const apiAdress = "https://api/my";
 const companyCode = "bjrcb";
 const siteCode = "nxsxy";
 
